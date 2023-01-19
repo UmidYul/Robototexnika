@@ -5,12 +5,10 @@
 }
 
 .navbar-1 {
-    position: fixed;
-    /* position:fixed DON'T WORK */
+    position: fixed !important;
+    background-color: #fff;
     z-index: 1000;
     width: 100%;
-    overflow: hidden;
-    top: 0;
 }
 
 .headerSpan {
@@ -22,6 +20,9 @@
 }
 
 /* THERE IS NOT WIDE <hr class"headerHR"> */
+.navbar-2 {
+    margin-top: 7%;
+}
 
 .whyRoboclub {
     color: var(--mainColor);
@@ -386,12 +387,41 @@ body {
 
 .futic1 {
     text-align: center;
-    margin: 10px;
-    font-size: 30px;
     color: white;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(128, 128, 248);
+    width: 35px;
+    height: 35px;
+    background-color: blue;
     display: inline-block;
+    padding-top: 5px;
+}
+
+.futic2 {
+    width: 27px !important;
+    height: 27px !important;
+    margin-top: 1%;
+    padding-top: 0% !important;
+    padding-bottom: 3.5% !important
+}
+
+.futic2>i {
+    font-size: smaller !important
+}
+
+.fa-phone {
+    color: blue;
+}
+
+.fa-clock {
+    color: blue
+}
+
+.headerSpan2 {
+    font-size: small !important;
+    color: gray !important
+}
+
+.headerSpan2_1 {
+    margin-left: 10%;
+    margin-right: 0%;
 }
