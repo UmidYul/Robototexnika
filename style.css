@@ -6,6 +6,7 @@
 
 .navbar-1 {
     position: fixed;
+    /* position:fixed DON'T WORK */
     z-index: 1000;
     width: 100%;
     overflow: hidden;
