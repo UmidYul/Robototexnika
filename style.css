@@ -4,6 +4,24 @@
     margin: 0;
 }
 
+.navbar-1 {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.headerSpan {
+    font-weight: 700 !important;
+}
+
+.headerSpan:hover {
+    color: blue !important
+}
+
+/* THERE IS NOT WIDE <hr class"headerHR"> */
+
 .whyRoboclub {
     color: var(--mainColor);
     margin-top: 7%;
