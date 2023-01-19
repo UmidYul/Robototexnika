@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    --mainColor: #333333;
+    margin: 0;
+}
+
+.whyRoboclub {
+    color: var(--mainColor);
+    margin-top: 7%;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+.whyRoboclubAnswer {
+    gap: 10px;
+}
+
+.whyRoboclubAnswer>.col {
+    background-color: #f4f4f4;
+}
+
+.whyRoboclubAnswer>.col>h2 {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.whyRoboclubAnswer>.col>p {
+    color: gray;
+}
+
+.btn {
+    font-size: larger;
+    font-weight: 500;
+    padding: 1%;
+    width: 33%;
+    margin: 50px;
+}
+
+.whyRoboclubAnswer>.col>img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.whyRoboclubAnswer>.col>h3 {
+    font-weight: 500;
+    font-size: large;
+    margin-top: 5%;
+}
+
+.lorem1 {
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.div1 {
+    background-color: rgb(233, 226, 226);
+    width: 100%;
+}
+
+.comments {
+    width: 60%;
+    background-color: white;
+}
+
+.timur {
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    margin-left: 5%;
+}
+
+.commentAboutTimur {
+    color: gray;
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.khamidullaNigmatullaev {
+    color: var(--mainColor);
+    font-weight: 500;
+    font-size: small;
+}
+
+.commentAboutTimur {
+    width: 50%;
+}
+
+.fromUSA {
+    font-weight: 500;
+    font-size: medium;
+    color: blue;
+    margin-bottom: 5%;
+}
+
+.btn2 {
+    font-size: larger;
+    font-weight: 500;
+    padding: 1%;
+    width: 15%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.instP {
+    color: gray;
+
+}
+
+.comments {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogs>.row {
+    margin: 1%;
+}
+
+.dog {
+    width: 85%;
+}
+
+.fa-instagram {
+    margin-right: 2%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    height: 520px;
+    text-align: left;
+    padding: 30px;
+    display: inline-block;
+    background-color: white;
+}
+
+.fut1 {
+    text-align: center !important;
+    width: 100%;
+    height: auto;
+    background-color: #3F312D;
+}
+
+.h1fir {
+    padding: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.parafir {
+    color: rgb(138, 137, 137);
+}
+
+.insdiv>p {
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: 3px dotted rgb(32, 30, 30);
+}
+
+
+.insdiv {
+    border-radius: 20px;
+    margin: 30px;
+    display: inline-block;
+    width: 400px;
+    background-color: white;
+}
+
+
+.insh {
+    padding: 20px;
+    border-bottom: 3px solid blue;
+}
+
+.insdiv>h1 {
+    border-bottom: 3px solid blue;
+}
+
+.info {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.insbtn {
+    cursor: pointer;
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.insdiv4 {
+    border-radius: 20px;
+    margin: 30px;
+    width: auto;
+    background-color: white;
+    text-align: left;
+}
+
+.h1 {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.h2 {
+    display: inline-block;
+    padding-left: 25%;
+}
+
+.pricebtn {
+    cursor: pointer;
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.fut2 {
+    padding: 0 !important;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.mainacor {
+    padding: 30px !important;
+    width: 600px;
+    display: inline-block;
+    margin: 50px;
+}
+
+
+
+.op {
+    color: red;
+    font-size: 0px;
+}
+
+.email>button {
+    cursor: pointer;
+    border: 2px solid blue;
+    padding: 8px;
+    margin-top: 50PX;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.email>h1 {
+    font-size: 25px;
+}
+
+.email>input {
+    border-radius: 7px;
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.fut3 {
+    padding: 20px;
+    text-align: left;
+    background-color: #3F312D;
+}
+
+.txt>h1 {
+    color: white;
+}
+
+.txt>p {
+    color: rgb(138, 137, 137);
+}
+
+.txt>input {
+    border-radius: 7px;
+    text-align: left;
+    padding: 5px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.txt>button {
+    cursor: pointer;
+    border: 2px solid blue;
+    padding: 8px;
+    margin-top: 50PX;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.img {
+    margin-left: 191px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: inline-block;
+    background-image: url('https://landing.roboclub.uz/wp-content/uploads/2022/10/image_2022-10-17_16-21-38.png');
+
+}
+
+.txt {
+    display: inline-block;
+}
+
+.paraic1 {
+    color: white !important;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.ic1 {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.paraic2 {
+    color: white !important;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.paraic3 {
+    color: white !important;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.paraic4 {
+    color: white !important;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.opas {
+    font-size: 1px;
+    color: #3F312D;
+}
+
+.futic1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(128, 128, 248);
+    display: inline-block;
+}
