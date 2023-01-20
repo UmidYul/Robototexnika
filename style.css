@@ -457,28 +457,30 @@ body {
     display: inline-block;
 }
 
+.navbar-brand {
+    display: flex;
+    gap: 10px;
+}
+
+.headerNav>i {
+    font-size: 30px !important;
+}
 
 .futic1 {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     border-radius: 100%;
     width: 35px;
     height: 35px;
     background-color: blue;
-    display: inline-block;
     padding-top: 5px;
 }
 
-.futic2 {
-    width: 27px !important;
-    height: 27px !important;
-    margin-top: 1%;
-    padding-top: 0% !important;
-    padding-bottom: 3.5% !important
-}
 
 .futic2>i {
-    font-size: smaller !important
+    font-size: smaller !important;
 }
 
 .fa-phone {
@@ -487,6 +489,16 @@ body {
 
 .fa-clock {
     color: blue
+}
+
+.headerSpan>a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.headerSpan>a:hover {
+    color: blue !important;
+    text-decoration: underline !important;
 }
 
 .headerSpan2 {
