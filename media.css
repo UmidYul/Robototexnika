@@ -48,83 +48,84 @@
     }
 }
 
-@media screen and (max-width:914px) .fut3 {
-    height: 1420PX !important;
-}
+@media screen and (max-width:914px) {
+    .fut3 {
+        height: 1420PX !important;
+    }
 
-iframe {
-    height: 400px;
-}
+    iframe {
+        height: 400px;
+    }
 
-.pararaph-3,
-.pararaph-2 {
-    font-size: 60PX;
-}
+    .pararaph-3,
+    .pararaph-2 {
+        font-size: 60PX;
+    }
 
-.divWithVideo {
-    height: 100%;
-    padding: 30px;
-}
+    .divWithVideo {
+        height: 100%;
+        padding: 30px;
+    }
 
-nav {
-    display: none !important;
-}
+    nav {
+        display: none !important;
+    }
 
-.blockchild1,
-.blockchild3,
-.blockchild5 {
-    opacity: 0;
-}
+    .blockchild1,
+    .blockchild3,
+    .blockchild5 {
+        opacity: 0;
+    }
 
-.col>h3 {
-    font-size: 70px !important;
-}
+    .col>h3 {
+        font-size: 70px !important;
+    }
 
-.blockchild,
-.blockchild1,
-.block5,
-.block4 {
-    width: 440px !important;
-    height: 100% !important;
-}
+    .blockchild,
+    .blockchild1,
+    .block5,
+    .block4 {
+        width: 440px !important;
+        height: 100% !important;
+    }
 
-.whyRoboclub {
-    font-size: 30px;
-}
+    .whyRoboclub {
+        font-size: 30px;
+    }
 
-.btn {
-    width: 190px;
-}
+    .btn {
+        width: 190px;
+    }
 
-.lorem1 {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 30px;
-}
+    .lorem1 {
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 30px;
+    }
 
-.commentAboutTimur>p {
-    font-size: 10px;
-}
+    .commentAboutTimur>p {
+        font-size: 10px;
+    }
 
-.dogsimg4>img {
-    margin: 5px;
-    width: 150px;
-    height: 150px;
-}
+    .dogsimg4>img {
+        margin: 5px;
+        width: 150px;
+        height: 150px;
+    }
 
-.txt>input {
-    margin-bottom: 15px;
-    width: 250px;
-}
+    .txt>input {
+        margin-bottom: 15px;
+        width: 250px;
+    }
 
-.txt>p {
-    font-size: 13px;
-}
+    .txt>p {
+        font-size: 13px;
+    }
 
-.img {
-    margin: 0px !important;
-    width: 425px;
-    height: 425px;
-}
+    .img {
+        margin: 0px !important;
+        width: 425px;
+        height: 425px;
+    }
 }
 
 @media screen and (max-width:821px) {
