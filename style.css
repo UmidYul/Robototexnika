@@ -131,7 +131,6 @@
 
 html,
 body {
-    padding-right: -10px !important;
     display: flex;
     flex-direction: column;
 }
@@ -327,6 +326,10 @@ body {
     background-color: aliceblue;
 }
 
+.fut2>h1 {
+    padding: 50px;
+}
+
 .mainic {
     display: flex;
     gap: 10px;
@@ -433,6 +436,89 @@ body {
 
 .yt {
     color: red;
+}
+
+.fac {
+    color: white;
+    background-color: blue !important;
+}
+
+.tg {
+    font-size: 53px !important;
+    color: rgb(24, 138, 253);
+}
+
+.inst {
+    font-size: 37px !important;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf) !important;
+    color: white;
+}
+
+.footer1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(128, 128, 248);
+    display: inline-block;
+}
+
+.navbar-brand {
+    display: flex;
+    gap: 10px;
+}
+
+.headerNav>i {
+    font-size: 30px !important;
+}
+
+
+.headerSpan>a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.headerSpan>a:hover {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+
+
+.divWithVideo {
+    background-color: #3F312D;
+}
+
+.divWithVideo {
+    padding-top: 10%;
+    height: 100vh;
+    color: #fff !important
+}
+
+.pararaph-1 {
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.pararaph-2 {
+    font-size: 90px;
+}
+
+.pararaph-3 {
+    font-size: 95px;
+    font-weight: 700;
+}
+
+.divWithVideo>button {
+    border: green 4px solid;
+    background-color: green;
+    padding: 1%;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: x-large;
+}
+
+.divWithVideo>button:hover {
+    background-color: blue;
+
+
 }
 
 .fac {

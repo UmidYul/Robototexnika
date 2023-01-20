@@ -1,11 +1,74 @@
-/* Adaptation */
-@media screen and (max-width:913px) {
+@media screen and (max-width:1281px) {
+    .divWithVideo {
+        height: 700px !important;
+    }
+
+    .divWithVideo>button {
+        margin: 50px;
+    }
+
+    .headerNav>span>a {
+        font-size: 15px !important;
+    }
+
+    .insdiv>h1 {
+        font-size: 25px;
+    }
+
+    .insdiv>p {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .blocks>div {
+        width: 500px;
+        height: 500px;
+    }
+
+    .children1,
+    .blockchild1 {
+        height: 640px !important;
+    }
+
+    .dogsimg4>img {
+        margin: 5px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .txt>input {
+        width: 300px;
+    }
+
+    .img {
+        margin: 0;
+        width: 530px;
+        height: 530px;
+    }
+}
+
+@media screen and (max-width:914px)
     .fut3 {
-        height: 1150px !important;
+        height: 1420PX !important;
     }
 
     iframe {
         height: 400px;
+    }
+
+    .pararaph-3,
+    .pararaph-2 {
+        font-size: 60PX;
+    }
+
+    .divWithVideo {
+        height: 100%;
+        padding: 30px;
+    }
+
+    nav {
+        display: none !important;
     }
 
     .blockchild1,
@@ -23,7 +86,7 @@
     .block5,
     .block4 {
         width: 440px !important;
-        height: 720px !important;
+        height: 100% !important;
     }
 
     .whyRoboclub {
@@ -89,7 +152,7 @@
     .block5,
     .block4 {
         width: 400px !important;
-        height: 720px !important;
+        height: 100% !important;
     }
 
     .whyRoboclub {
@@ -159,7 +222,7 @@
     .block5,
     .block4 {
         width: 370px !important;
-        height: 750px !important;
+        height: 100% !important;
     }
 
     .whyRoboclub {
@@ -235,18 +298,9 @@
 
     }
 
-    .children1 {
+    .blocks>div {
         width: 300px;
-        height: 590px !important;
-    }
-
-    .blocks>div:nth-child(1) {
-        width: 300px;
-        height: 340px !important;
-    }
-
-    .children3 {
-        height: 420px !important;
+        height: 100% !important;
     }
 
     .blockchild>h2 {
@@ -325,12 +379,29 @@
     }
 }
 
-@media screen and (max-width:413px) {
+@media screen and (max-width:415px) {
     .fut1 {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .fut3 {
+        height: 100% !important;
+    }
+
+    .divWithVideo {
+        height: 100%;
+    }
+
+    .pararaph-3,
+    .pararaph-2 {
+        font-size: 30px !important;
+    }
+
+    .Sjbody {
+        display: none !important;
     }
 
     iframe {
@@ -354,8 +425,7 @@
     }
 
     .blocks>div {
-        width: 300px;
-        height: 620px;
+        height: 100% !important;
     }
 
     .blockchild>h2 {
@@ -376,6 +446,7 @@
     .btn {
         width: 190px;
     }
+
 
     .lorem1 {
         font-family: 'PT Sans Narrow', sans-serif;
@@ -427,9 +498,17 @@
     .col>img {
         margin: 10px;
     }
+
+    .footer1 {
+        display: none;
+    }
+
+    .fut3 {
+        height: 900px !important;
+    }
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:394px) {
     iframe {
         height: 200px;
     }
@@ -452,7 +531,7 @@
 
     .blocks>div {
         width: 300px;
-        height: 620px;
+        height: 100% !important;
     }
 
     .blockchild>h2 {
@@ -512,6 +591,23 @@
         height: 200px;
     }
 
+    .Sjbody {
+        display: none !important;
+    }
+
+    .pararaph-3,
+    .pararaph-2 {
+        font-size: 30px !important;
+    }
+
+    .divWithVideo {
+        height: 400px;
+    }
+
+    #but {
+        width: 250px;
+    }
+
     .fut0 {
         width: 100%;
     }
@@ -530,7 +626,7 @@
 
     .blocks>div {
         width: 300px;
-        height: 620px;
+        height: 100% !important;
     }
 
     .blockchild>h2 {
@@ -583,6 +679,10 @@
     .img {
         display: none;
     }
+
+    .fut3 {
+        height: 799px !important;
+    }
 }
 
 @media screen and (max-width:361px) {
@@ -607,8 +707,8 @@
     }
 
     .blocks>div {
-        width: 300px;
-        height: 620px;
+        width: 290px !important;
+        height: 100% !important;
     }
 
     .blockchild>h2 {
@@ -624,6 +724,10 @@
 
     .whyRoboclub {
         font-size: 30px;
+    }
+
+    .bloc {
+        height: 440px !important;
     }
 
     .btn {
@@ -672,7 +776,16 @@
         height: 200px;
     }
 
-    .fut0 {
+    #but {
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .divWithVideo {
+        height: 100%;
+    }
+
+    .fut3 {
         width: 100%;
     }
 
@@ -699,19 +812,9 @@
         flex-direction: column;
     }
 
-    .blocks>div:nth-child(1) {
+    .blocks>div {
         width: 250px !important;
-        height: 430px !important;
-    }
-
-    .children1 {
-        width: 250px !important;
-        height: 730px !important;
-    }
-
-    .children3 {
-        width: 250px !important;
-        height: 570px !important;
+        height: 100% !important;
     }
 
     .blockchild>h2 {
@@ -749,7 +852,25 @@
     }
 
     .insdiv {
-        width: 320px;
+        width: 250px;
+    }
+
+    .info {
+        width: 90%;
+        height: 370px !important;
+    }
+
+    #qu {
+        margin: 0 0 20px 0 !important;
+        width: 260px !important;
+    }
+
+    #qu>input {
+        width: 200px;
+    }
+
+    .insdiv>h1 {
+        font-size: 20px !important;
     }
 
     .txt>input {
@@ -775,5 +896,11 @@
 
     .col>p {
         font-size: 20px;
+    }
+
+    html,
+    body {
+        width: 349px !important;
+
     }
 }
