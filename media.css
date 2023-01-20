@@ -241,7 +241,7 @@
 
     .blocks>div:nth-child(1) {
         width: 300px;
-        height: 340px !important;
+        height: 340px;
     }
 
     .children3 {
@@ -324,12 +324,29 @@
     }
 }
 
-@media screen and (max-width:413px) {
+@media screen and (max-width:415px) {
     .fut1 {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .fut3 {
+        height: 850px !important;
+    }
+
+    .divWithVideo {
+        height: 400px;
+    }
+
+    .pararaph-3,
+    .pararaph-2 {
+        font-size: 40px !important;
+    }
+
+    .Sjbody {
+        display: none !important;
     }
 
     iframe {
@@ -353,8 +370,8 @@
     }
 
     .blocks>div {
-        width: 300px;
-        height: 620px;
+        width: 300px !important;
+        height: 620px !important;
     }
 
     .blockchild>h2 {
@@ -375,6 +392,7 @@
     .btn {
         width: 190px;
     }
+
 
     .lorem1 {
         font-family: 'PT Sans Narrow', sans-serif;
@@ -425,6 +443,10 @@
 
     .col>img {
         margin: 10px;
+    }
+
+    .footer1 {
+        display: none;
     }
 }
 
@@ -511,6 +533,23 @@
         height: 200px;
     }
 
+    .Sjbody {
+        display: none !important;
+    }
+
+    .pararaph-3,
+    .pararaph-2 {
+        font-size: 30px !important;
+    }
+
+    .divWithVideo {
+        height: 400px;
+    }
+
+    #but {
+        width: 250px;
+    }
+
     .fut0 {
         width: 100%;
     }
@@ -582,6 +621,10 @@
     .img {
         display: none;
     }
+
+    .fut3 {
+        height: 799px !important;
+    }
 }
 
 @media screen and (max-width:361px) {
@@ -619,6 +662,10 @@
     .blockchild>p {
         font-family: 'PT Sans Narrow', sans-serif;
         font-size: 18px;
+    }
+
+    .bloc {
+        height: 200px !important;
     }
 
     .whyRoboclub {

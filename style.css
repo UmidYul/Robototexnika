@@ -466,30 +466,6 @@ body {
     font-size: 30px !important;
 }
 
-.futic1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 100%;
-    width: 35px;
-    height: 35px;
-    background-color: blue;
-    padding-top: 5px;
-}
-
-
-.futic2>i {
-    font-size: smaller !important;
-}
-
-.fa-phone {
-    color: blue;
-}
-
-.fa-clock {
-    color: blue
-}
 
 .headerSpan>a {
     color: black !important;
@@ -501,15 +477,6 @@ body {
     text-decoration: underline !important;
 }
 
-.headerSpan2 {
-    font-size: small !important;
-    color: gray !important
-}
-
-.headerSpan2_1 {
-    margin-left: 10%;
-    margin-right: 0%;
-}
 
 .divWithVideo {
     background-color: #3F312D;
