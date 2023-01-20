@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (max-width:914px) {
+@media screen and (max-width:914px)
     .fut3 {
         height: 1420PX !important;
     }
